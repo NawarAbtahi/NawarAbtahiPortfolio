@@ -122,9 +122,7 @@ body {
   transition: 0.3s ease;
 }
 
-.social-link:hover {
-  transform: translateY(-5px);
-}
+
 
 .email {
   grid-column: 1 / 4;
@@ -137,9 +135,6 @@ body {
   text-decoration: none;
 }
 
-.email:hover {
-  transform: translateY(0px);
-}
 
 .fa-brands,
 .fa-solid {
@@ -247,4 +242,11 @@ body {
     padding: 0.4rem 1rem;
     width: auto;
   }
+    .social-link:hover {
+        transform: translateY(-5px);
+    }
+    
+    .email:hover {
+    transform: translateY(0px);
+    }
 }
