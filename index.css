@@ -118,6 +118,7 @@ body {
   height: 28px;
   border: 2px solid rgb(104, 103, 180);
   border-radius: 30px;
+  text-decoration: none;
   transition: 0.3s ease;
 }
 
